@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Filler</title>
+</head>
+<body>
+  <form>
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <br>
+    <label for="site-title">Titre du site:</label>
+    <input type="text" id="site-title" name="site-title">
+    <br>
+    <label for="seo-title">Titre SEO du site:</label>
+    <input type="text" id="seo-title" name="seo-title">
+    <br>
+    <label for="meta-description">Meta Description:</label>
+    <input type="text" id="meta-description" name="meta-description">
+    <br>
+    <label for="site-url">Adresse du site (URL):</label>
+    <input type="text" id="site-url" name="site-url">
+    <br>
+    <label for="rss-title">Titre du flux RSS:</label>
+    <input type="text" id="rss-title" name="rss-title">
+    <br>
+    <label for="rss-url">Adresse du flux RSS (URL):</label>
+    <input type="text" id="rss-url" name="rss-url">
+    <br>
+    <label for="rss-description">Description</label>
+    <input type="text" id="rss-description" name="rss-description">
+    <br><br>
+    <button type="submit" id="save-button" onClick="saveData()">Enregistrer</button>
+  </form>
+  <script src="saveData.js"></script>
+</body>
+</html>

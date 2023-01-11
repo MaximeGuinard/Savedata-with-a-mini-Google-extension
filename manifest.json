@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "Form filler",
+    "description": "Automatically fill forms with saved information",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    }
+}
